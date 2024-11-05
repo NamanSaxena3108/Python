@@ -10,13 +10,12 @@ word_length = len(chosen_word)
 
 end_of_game = False
 lives = 6
-print("the chosen word is: ", chosen_word)
 
 from hangman_art import logo
 print(logo)
 
 
-print(f'Pssst, the solution is {chosen_word}.')
+# print(f'Pssst, the solution is {chosen_word}.')
 
 
 display = []
